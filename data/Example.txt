@@ -1,0 +1,2 @@
+If you want make a 3D reconstruction of the images "book1" and "book2", you have to select the white book on the table 
+whose measures are: 260 x 195 mm
