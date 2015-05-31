@@ -19,6 +19,15 @@ points. If you don’t provide any additional information, the output will be a 
 If there are more than 2 photos, you have to modify the main program.
 3) The sequence images must be close enough to create point correspondances between atleast 6 points.
 
-Initial Set Up
+INITIAL SET-UP
 1.The main program is Camera_Pose.m
 2.Set all folders and files as Matlab directory path
+
+CAMERA CALIBRATION
+Select two image. For good results these has to present just a little rotation or translation of the camera with respect to the distance between the camera itself and the captured scene
+
+3D RECONSTRUCTION
+If know the real dimension of a object in the scene you can reconstruct the 3D relative position of the cameras.
+For good results, it’s better to select an object aligned alon gth plane x-y. For example a book is a good calibration object; it is the smaller object you can use to obtain an accurate calibration. The bigger the object (bigger with
+respect to the area of the photo), the more accurate the estimation.
+
