@@ -34,6 +34,5 @@ If there are more than 2 photos, you have to modify the main program.
 
 **3D RECONSTRUCTION**
 
-- If the real dimension of an object in the scene are known, you can reconstruct the 3D relative position of the cameras. For good results, it’s better to select an object aligned alon gth plane x-y. For example a book is a good calibration object; it is the smaller object you can use to obtain an accurate calibration. The bigger the object (bigger with
-respect to the area of the photo), the more accurate the estimation.
+- If the real dimension of an object in the scene are known, you can reconstruct the 3D relative position of the cameras. For good results, it’s better to select an object aligned along the plane x-y. For example a book is a good calibration object; it is the smaller object you can use to obtain an accurate calibration. The bigger the object (bigger with respect to the area of the photo), the more accurate the estimation.
 
