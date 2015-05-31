@@ -13,28 +13,27 @@ This code is written and tested for MATLAB R2015a. For run the code you need als
 - Computer Vision System Toolbox
 
 
-Guidline for using a set of user-generated uncalibrated sequence images
+**Guidline for using a set of user-generated uncalibrated sequence images**
 
-1) This program is proper only for making a 3D camera pose, if you provide the distance between 4 real scene
+- This program is proper only for making a 3D camera pose, if you provide the distance between 4 real scene
 points. If you don’t provide any additional information, the output will be a 2D map.
-2) This program available for only 2 photos, taken in 2 different position with the same camera. 
+- This program available for only 2 photos, taken in 2 different position with the same camera. 
 If there are more than 2 photos, you have to modify the main program.
-3) The sequence images must be close enough to create point correspondances between atleast 6 points.
+- The sequence images must be close enough to create point correspondances between atleast 6 points.
 
 
 
-INITIAL SET-UP
+**INITIAL SET-UP**
 
-1.The main program is Camera_Pose.m
-2.Set all folders and files as Matlab directory path
+- The main program is Camera_Pose.m
+- Set all folders and files as Matlab directory path
 
-CAMERA CALIBRATION
+**CAMERA CALIBRATION**
 
-Select two image. For good results these has to present just a little rotation or translation of the camera with respect to the distance between the camera itself and the captured scene
+- Select two image. For good results these has to present just a little rotation or translation of the camera with respect to the distance between the camera itself and the captured scene
 
-3D RECONSTRUCTION
+**3D RECONSTRUCTION**
 
-If know the real dimension of a object in the scene you can reconstruct the 3D relative position of the cameras.
-For good results, it’s better to select an object aligned alon gth plane x-y. For example a book is a good calibration object; it is the smaller object you can use to obtain an accurate calibration. The bigger the object (bigger with
+- If the real dimension of an object in the scene are known, you can reconstruct the 3D relative position of the cameras. For good results, it’s better to select an object aligned alon gth plane x-y. For example a book is a good calibration object; it is the smaller object you can use to obtain an accurate calibration. The bigger the object (bigger with
 respect to the area of the photo), the more accurate the estimation.
 
