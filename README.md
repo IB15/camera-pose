@@ -30,7 +30,7 @@ If there are more than 2 photos, you have to modify the main program.
 
 **CAMERA CALIBRATION**
 
-- Select two image. For good results these has to present just a little rotation or translation of the camera with respect to the distance between the camera itself and the captured scene
+- Select two image in such a way these has just a little rotation or translation of the camera with respect to the distance between the camera itself and the captured scene
 
 **3D RECONSTRUCTION**
 
