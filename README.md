@@ -14,16 +14,16 @@ This code is written and tested for MATLAB R2015a. For run the code you also nee
 
 
 **Guidline for using a set of user-generated uncalibrated sequence images**  
-- This program is proper only for making a 3D camera pose, if you provide the distance between 4 real scene
+- This program is suitable for making a 3D camera pose, if you provide the distance between 4 real scene
 points. If you don’t provide any additional information, the output will be a 2D map.
 - This program available for only 2 photos, taken in 2 different position with the same camera. 
 If there are more than 2 photos, you have to modify the main program.
-- The sequence images must be close enough to create point correspondances between atleast 6 points.
+- The sequence images must be close enough to create point correspondances between at least 6 points.
 
 
 
 **INITIAL SET-UP**  
-- The main program is "Camera_Pose.m"
+- The main is "Camera_Pose.m"
 - Set all folders and files as Matlab directory path
 
 **CAMERA CALIBRATION**  
@@ -40,7 +40,7 @@ _**EXAMPLE**_
 - Now for run a 3D Reconstruction select the images "book1.jpg" and "book2.jpg"
 - When you are asked to add information click "Yes", and select the corners of the white book on the table, as in this figure:
 ![alt tag](http://s17.postimg.org/ytg288llb/select_point.jpg)
-- The book dimensions are 260 x 160 mm
+- The book dimensions are 260 x 195 mm
 - At the end you will have a 3D map like this, the points in red are the point selected, and the green point is the origin
 
 ![alt tag](http://s17.postimg.org/yfeq8n1hr/results.jpg)
